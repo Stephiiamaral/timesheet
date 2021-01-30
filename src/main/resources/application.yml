@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/EmployeeTime?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+  jpa:
+    generate-ddl: true
